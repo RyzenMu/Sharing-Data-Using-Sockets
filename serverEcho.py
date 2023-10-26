@@ -1,6 +1,6 @@
 import socket
 mySock = socket.socket()
-host = '192.168.1.142'
+host = '10.88.0.3'
 port = 65535 #reserve a port number
 mySock.bind((host, port))
 mySock.listen(1)
